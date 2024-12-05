@@ -28,7 +28,10 @@ body{
         height: fit-content;
 
     }
-    #section1  .tab-content, #section1 .transBack{
+    #section1  .tab-content{
+        padding-top: 30px;
+      }
+      .transBack{
         padding-top: 30px;
       }
 
