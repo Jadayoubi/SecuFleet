@@ -27,12 +27,12 @@ body{
     #section1, #section3{
         height: fit-content;
 
-    }
+    }   
     #section1  .tab-content{
         padding-top: 30px;
       }
       .transBack{
-        padding-top: 30px;
+        margin-top: 30px;
       }
 
   .schedule{

@@ -30,7 +30,7 @@ body {
 /* Hero Section */
 .hero {
     background-color: #091E3E;
-    background-image: url("/client/images/aboutUs/background.png");
+    background-image: url("/images/aboutUs/background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
