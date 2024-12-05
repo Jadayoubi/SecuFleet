@@ -8,6 +8,8 @@ body{
 .btn{
     color: white;
   }
+
+
 .transBack{
     background-color: rgba(39, 39, 39, 0.211);
     border-radius: 10px;
@@ -26,6 +28,10 @@ body{
         height: fit-content;
 
     }
+    #section1  .tab-content, #section1 .transBack{
+        padding-top: 30px;
+      }
+
   .schedule{
     visibility: hidden;
   }
