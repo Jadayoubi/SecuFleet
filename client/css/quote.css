@@ -31,7 +31,7 @@ body{
     display: inline-block;
     border: 2px solid rgb(6, 163, 218);
     padding: 20px;
-    color:#081E3E ;
+    color:white ;
     margin: 10px;
     border-radius: 5px;
     text-align: center;
@@ -75,7 +75,7 @@ body{
 
 
 .progress-container {
-    margin: 20px 0;
+ 
     text-align: center;
     width: 50%;
     margin-left: 25%;
