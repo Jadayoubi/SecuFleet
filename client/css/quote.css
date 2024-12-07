@@ -17,6 +17,25 @@ body{
     justify-content: center;
    
 }
+.quoteIcon{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+ }
+ .service-container,.fleet-questions,.webDev-questions,.consulting-questions{
+    background: url("/images/quoteBack2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    animation: bounce-in-right  0.8s ease-in-out both;
+ }
+
+ @media (max-width:768px) {
+    .service-container{
+        height: fit-content !important;
+    }
+ }
 .question {
     display: flex;
     flex-wrap: wrap;
