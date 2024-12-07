@@ -47,6 +47,7 @@
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/index.css" rel="stylesheet">
     <link href="/css/quote.css" rel="stylesheet">
+    <link href="/css/animation.css" rel="stylesheet">
     <style>
              .quoteIcon{
                 width: 70px;
@@ -54,11 +55,12 @@
                 object-fit: contain;
              }
              .service-container{
-                background: url("/images/quoteBack.jpg");
+                background: url("/images/quoteBack2.jpg");
                 background-position: center;
                 background-repeat: no-repeat;
+                height: 60vh;
                 background-size: cover;
-            
+                animation: bounce-in-right  0.8s ease-in-out both;
              }
     </style>
 </head>
@@ -98,7 +100,7 @@
 
         <script defer src="/js/navbar.js"></script>
         <div id="navbar-container"></div>
-        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+        <div class="container-fluid bg-primary py-5 bg-header">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
                     <h1 class="display-4 text-white animated zoomIn">Free Quote</h1>
@@ -825,7 +827,7 @@
     </div>
 
 </section>
-<div class="container-fluid py-5" style="background-color: #081f3e; margin-top: 8%;">
+<div class="container-fluid py-5" style="background-color: #081f3e;">
     <div class="container py-5">
         <div class="row text-center">
             <div class="col-lg-12">
