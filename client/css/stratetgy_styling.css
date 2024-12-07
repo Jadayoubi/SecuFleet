@@ -73,7 +73,7 @@ td {
 .container_one {
     display: flex;
     padding-top: 30px;
-    background-image: url('/client/images/consulting/stratetgy/secu_logo.png'); 
+    background-image: url('/images/consulting/stratetgy/secu_logo.png'); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -113,7 +113,7 @@ td {
     padding: 20px; 
     width: calc(25% - 40px);
     line-height: 1.5rem;
-    background-image: url('/client/images/consulting/stratetgy/shape.png');
+    background-image: url('/images/consulting/stratetgy/shape.png');
     background-position: left -22px bottom -19px;
     background-repeat: no-repeat;
     background-size: 60px 60px;

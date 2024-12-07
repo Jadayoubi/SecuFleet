@@ -1,3 +1,7 @@
+body{
+        overflow: auto !important;
+}
+
 .bounce-in-right {
     opacity: 0; /* Initially hidden */
     -webkit-transform: translateX(600px);
