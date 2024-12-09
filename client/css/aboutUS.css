@@ -171,14 +171,13 @@ body {
     font-weight: bold;
 }
 
-.text-container {
-    /* flex: 1 1 45%; */
+/* .text-container {
     max-width: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 
-}
+} */
 
 
 
@@ -261,7 +260,7 @@ color: white;
     }
 
     .values {
-        margin-left: 10px;
+        margin-left: 20px;
         position: relative;
     }
 
@@ -284,6 +283,7 @@ color: white;
     }
     .text-container{
         width: 100%;
+        margin-left: 10px;
     }
     .mission-vision{
         margin-left: 10px !important;
@@ -324,10 +324,8 @@ color: white;
         position: relative;
     }
 
-    .values{
-        margin-left: 80px;
 
-    }
+   
 }
 
 
