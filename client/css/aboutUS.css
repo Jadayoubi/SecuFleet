@@ -233,6 +233,13 @@ color: white;
 
 }
 @media screen and (max-width:770px) {
+
+    .part2{
+        margin-bottom: -20px;
+    }
+    .image-container, .image-wrapper .i2    {
+        display: none;
+    }
     .mission::after {
         content: "";
         display: block;
