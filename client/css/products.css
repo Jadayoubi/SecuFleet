@@ -47,6 +47,9 @@ body{
         height: 110vh;
     }
   
+    #section1 .nav-link{
+        width:55%
+    }
  }
 
 
@@ -65,10 +68,10 @@ body{
   }
  
   .greenIcon{
-   
     width: 80px;
     object-fit: contain;
     padding-right: 10px;
+    margin-left: -15px;
   }
 .service .nav .nav-link {
     background: var(--light);
