@@ -234,9 +234,6 @@ color: white;
 }
 @media screen and (max-width:770px) {
 
-    .part2{
-        margin-bottom: -20px;
-    }
     .image-container, .i2    {
         display: none;
     }
@@ -245,7 +242,7 @@ color: white;
         display: block;
         margin: 20px 0px 20px -10px;
         
-        width: 100%;
+        width: 90%;
         height: 100%;
         background: url(https://i.ibb.co/XxWzycL/main-img.png) no-repeat center center;
         background-size: cover;
@@ -276,7 +273,7 @@ color: white;
         content: "";
         display: block;
       
-        width: 100%;
+        width: 90%;
         height: 100%;
         background: url('https://i.ibb.co/1R41h1b/fingerprint.jpg') no-repeat center center;
         background-size: cover;
