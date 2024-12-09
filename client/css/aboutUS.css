@@ -239,8 +239,11 @@ color: white;
         font-size: 18px;
    
     }
-    .our-story .line-line{
-        /* display: none; */
+    .text-container{
+        width: 100%;
+    }
+    .mission-vision{
+        margin-left: 10px !important;
     }
     .core-services .service-item img {
         width: 100%;
