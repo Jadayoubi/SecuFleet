@@ -48,7 +48,7 @@ body{
     }
   
     #section1 .nav-link{
-        width:55% !important;
+        width:100% !important;
         font-size: 15px;
     }
     #section1 .nav-link p{
