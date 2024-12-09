@@ -243,7 +243,8 @@ color: white;
     .mission::after {
         content: "";
         display: block;
-        margin: 20px auto;
+        margin: 20px 0px 20px -10px;
+        
         width: 100%;
         height: 100%;
         background: url(https://i.ibb.co/XxWzycL/main-img.png) no-repeat center center;
@@ -274,7 +275,7 @@ color: white;
     .values::after {
         content: "";
         display: block;
-        margin: 20px auto;
+      
         width: 100%;
         height: 100%;
         background: url('https://i.ibb.co/1R41h1b/fingerprint.jpg') no-repeat center center;
