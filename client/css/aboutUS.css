@@ -232,6 +232,7 @@ color: white;
     }
 
 }
+
 @media screen and (max-width:770px) {
 
     .image-container, .i2    {
@@ -333,10 +334,19 @@ color: white;
 
 
 @media(min-width:1000px){
+    .values{
+        width: 50%;
+    }
+    .values-container{
+        width: 100%;
+    }
 .missonWP{
     display: flex;
     flex-direction: row;
    
+}
+.text-container{
+    width: 45%;
 }
 .main{
     margin-left: 100px;
