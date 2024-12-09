@@ -48,7 +48,15 @@ body{
     }
   
     #section1 .nav-link{
-        width:55%
+        width:55% !important;
+        font-size: 15px;
+    }
+    #section1 .nav-link p{
+        color: black !important;
+        font-weight: bolder;
+    }
+    #section1 .nav-link.active p{
+        color: white !important;
     }
  }
 
