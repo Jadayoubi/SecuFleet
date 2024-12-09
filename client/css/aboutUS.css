@@ -234,6 +234,49 @@ color: white;
 
 }
 @media screen and (max-width:770px) {
+    .mission::after {
+        content: "";
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+        height: 100%;
+        background: url(https://i.ibb.co/XxWzycL/main-img.png) no-repeat center center;
+        background-size: cover;
+        border-radius: 10px;
+        padding-top: 56.25%;
+    }
+    .image-group {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .secondary-image {
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .values {
+        margin-left: 10px;
+        position: relative;
+    }
+
+    /* Add the fingerprint image dynamically below the values section */
+    .values::after {
+        content: "";
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+        height: 100%;
+        background: url('https://i.ibb.co/1R41h1b/fingerprint.jpg') no-repeat center center;
+        background-size: cover;
+        border-radius: 10px;
+        padding-top: 56.25%; /* 16:9 ratio */
+    }
     .core-services .service-item p {
         margin: 0;
         font-size: 18px;
@@ -346,12 +389,10 @@ margin-top: 50px;
 
 /* Values Section */
 .values {
-    padding: 50px 0;
     color: rgb(0, 0, 0);
-    display: flex;
     justify-content: flex-end;
-    max-width: 800px;
-
+    width: 100%;
+    margin-left: 20px;
 }
 
 .values h1 {
