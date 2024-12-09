@@ -9,7 +9,7 @@ body{
     color: white;
   }
 
-.section1 .container{
+#section1 .container{
     max-width: 100% !important;
 }
 .transBack{
