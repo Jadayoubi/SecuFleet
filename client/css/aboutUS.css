@@ -237,7 +237,7 @@ color: white;
     .part2{
         margin-bottom: -20px;
     }
-    .image-container, .image-wrapper .i2    {
+    .image-container, .i2    {
         display: none;
     }
     .mission::after {
@@ -316,20 +316,20 @@ color: white;
         border-radius: 10px;
         
     }
-    .main-image{
+    /* .main-image{
      width: 200px;
      height: 200px;
      object-fit: contain;
      z-index: 2;
      margin-top: 50px;
-    }
-    .secondary-image {
+    } */
+    /* .secondary-image {
         width: 150px !important;
         height: 150px !important;
         object-fit: cover;
         z-index: 2;
         position: relative;
-    }
+    } */
 
 
    
