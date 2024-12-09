@@ -271,7 +271,6 @@ color: white;
         position: relative;
     }
 
-    /* Add the fingerprint image dynamically below the values section */
     .values::after {
         content: "";
         display: block;
@@ -297,13 +296,12 @@ color: white;
     }
     .core-services .service-item img {
         width: 100%;
-        /* margin-bottom: -10px; */
     }
     .main::before{
         margin-top: 50px;
 
     }
-    .image-wrapper::before {
+    /* .image-wrapper::before {
         content: "";
         position: absolute;
         top: -20px;
@@ -315,7 +313,7 @@ color: white;
         transform: translate(-15px, -15px);
         border-radius: 10px;
         
-    }
+    } */
     /* .main-image{
      width: 200px;
      height: 200px;
