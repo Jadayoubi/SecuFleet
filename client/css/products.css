@@ -50,6 +50,10 @@ body{
     color: black !important;
     font-weight: bolder;
 }
+#section1 .nav-link p.active{
+    color: white !important;
+    font-weight: bolder;
+}
  @media(min-width:992px){
     #section1, #section3{
         height: 110vh;
