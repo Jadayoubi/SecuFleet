@@ -127,23 +127,7 @@
       rel="stylesheet"
     />
     <style>
-     @media(min-width: 768px) {
-    .imageSize {
-        width: 100% !important;
-        height: auto !important;
-    }
-
-    .imageSize img {
-        position: static !important; /* Removes position-absolute on mobile */
-        width: 100% !important; /* Ensures full-width display */
-        height: auto !important; /* Keeps the aspect ratio intact */
-        object-fit: cover !important; /* Ensures proper fitting */
-    }
-
-    .transBack {
-        margin-top: 20px; /* Adds spacing for the text */
-    }
-}
+     
       .fleetBack{
         background: url('https://i.ibb.co/tPvv0c5/Fleet-Management-103.png');
         background-position:center 75%;
@@ -166,6 +150,8 @@
         display: flex;
       }
    
+@media (min-width:991px) {
+  
 
       .imageSize{
         max-width: 70% !important;
@@ -190,6 +176,7 @@
         height: fit-content;
         width: 28% !important;
       }
+    }
       #section3{
         background: url('/images/Fleet\ Management\ 65.webp');
         background-size: cover;
@@ -350,7 +337,7 @@
                     <div class="col-md-8 imageSize">
                       <div class="position-relative h-100">
                         <img
-                          class="position-absolute img-fluid w-100 h-100"
+                          class="position-static img-fluid w-100 h-100"
                           src="/images/Fleet Management 22.png"
                           style="object-fit: cover"
                           alt=""
@@ -382,7 +369,7 @@
                     <div class="col-md-8 imageSize">
                       <div class="position-relative h-100">
                         <img
-                          class="position-absolute img-fluid w-100 h-100"
+                          class="position-static img-fluid w-100 h-100"
                           src="https://i.ibb.co/dbjRskz/Fleet-Management-54.png"
                       
                           alt=""
@@ -414,7 +401,7 @@
                     <div class="col-md-8 imageSize">
                       <div class="position-relative h-100">
                         <img
-                          class="position-absolute img-fluid w-100 h-100"
+                          class="position-static img-fluid w-100 h-100"
                           src="https://i.ibb.co/54kDTx9/sensor.jpg"
                           style="object-fit: cover"
                           alt=""
@@ -460,7 +447,7 @@
                 data-wow-delay="0.1s"
               >
                 <img
-                  class="position-absolute img-fluid"
+                  class="position-static img-fluid"
                   src="https://i.ibb.co/tQ2bc1p/systemE.png"
                 
                   alt="Safety and Compliance"
@@ -582,7 +569,7 @@
                     <div class="col-md-6" style="min-height: 350px">
                       <div class="position-relative h-100">
                         <img
-                          class="position-absolute img-fluid w-100 h-100"
+                          class="position-static img-fluid w-100 h-100"
                           src="https://i.ibb.co/P5K8Vc0/eco.jpg"
                           style="object-fit: cover"
                           alt=""
@@ -621,7 +608,7 @@
                     <div class="col-md-6" style="min-height: 350px">
                       <div class="position-relative h-100">
                         <img
-                          class="position-absolute img-fluid w-100 h-100"
+                          class="position-static img-fluid w-100 h-100"
                           src="https://i.ibb.co/FBd8yc6/i8.png"
                           style="object-fit: cover"
                           alt=""
@@ -661,7 +648,7 @@
                     <div class="col-md-6" style="min-height: 350px">
                       <div class="position-relative h-100">
                         <img
-                          class="position-absolute img-fluid w-100 h-100"
+                          class="position-static img-fluid w-100 h-100"
                           src="https://i.ibb.co/rbggGm2/34.png"
                           style="object-fit: cover"
                           alt=""
@@ -779,7 +766,7 @@
                 data-wow-delay="0.1s"
               >
                 <img
-                  class="position-absolute img-fluid w-100 h-100"
+                  class="position-static img-fluid w-100 h-100"
                   src="https://i.ibb.co/DM8CT5w/real-time-tracking.png"
                   style="object-fit: cover"
                   alt=""
