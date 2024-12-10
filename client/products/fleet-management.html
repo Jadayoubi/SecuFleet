@@ -127,7 +127,23 @@
       rel="stylesheet"
     />
     <style>
-     
+     @media(min-width: 768px) {
+    .imageSize {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .imageSize img {
+        position: static !important; /* Removes position-absolute on mobile */
+        width: 100% !important; /* Ensures full-width display */
+        height: auto !important; /* Keeps the aspect ratio intact */
+        object-fit: cover !important; /* Ensures proper fitting */
+    }
+
+    .transBack {
+        margin-top: 20px; /* Adds spacing for the text */
+    }
+}
       .fleetBack{
         background: url('https://i.ibb.co/tPvv0c5/Fleet-Management-103.png');
         background-position:center 75%;
@@ -331,7 +347,7 @@
               <div class="tab-content w-100">
                 <div class="tab-pane fade show active" id="tab-pane-1">
                   <div class="row g-4">
-                    <div class="col-md-6 imageSize">
+                    <div class="col-md-8 imageSize">
                       <div class="position-relative h-100">
                         <img
                           class="position-absolute img-fluid w-100 h-100"
@@ -341,7 +357,7 @@
                         />
                       </div>
                     </div>
-                    <div class="col-md-6 transBack">
+                    <div class="col-md-4 transBack">
                       <h4 class="mb-3">Driver Performance Monitoring</h4>
                       <p class="mb-4">
                         Monitor driver behavior and ensure compliance with safety protocols to minimize risks and boost fleet safety.
@@ -363,7 +379,7 @@
                 </div>
                 <div class="tab-pane fade" id="tab-pane-2">
                   <div class="row g-4">
-                    <div class="col-md-6 imageSize">
+                    <div class="col-md-8 imageSize">
                       <div class="position-relative h-100">
                         <img
                           class="position-absolute img-fluid w-100 h-100"
@@ -373,7 +389,7 @@
                         />
                       </div>
                     </div>
-                    <div class="col-md-6 transBack">
+                    <div class="col-md-4 transBack">
                       <h4 class="mb-3">Fleet Asset Utilization</h4>
                       <p class="mb-4">
                         Track fleet utilization rates, reduce idle time, and maximize resource allocation for peak efficiency.
@@ -395,7 +411,7 @@
                 </div>
                 <div class="tab-pane fade" id="tab-pane-3">
                   <div class="row g-4">
-                    <div class="col-md-6 imageSize">
+                    <div class="col-md-8 imageSize">
                       <div class="position-relative h-100">
                         <img
                           class="position-absolute img-fluid w-100 h-100"
@@ -405,7 +421,7 @@
                         />
                       </div>
                     </div>
-                    <div class="col-md-6 transBack">
+                    <div class="col-md-4 transBack">
                       <h4 class="mb-3">ADAS</h4>
                       <p class="mb-4">
                         Enhance fleet safety and efficiency with cutting-edge ADAS technology. These systems utilize cameras and sensors to monitor driver behavior, prevent collisions, and provide real-time feedback.
