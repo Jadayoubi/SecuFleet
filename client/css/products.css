@@ -15,6 +15,10 @@ body{
 .transBack{
     background-color: rgba(39, 39, 39, 0.211);
     border-radius: 10px;
+    color:white
+  }
+  .transBack .mb-3{
+    color: rgb(6, 163, 218) !important;
   }
   .text-center{
     padding-bottom: 10px;
@@ -42,6 +46,10 @@ body{
   }
 
  }
+ #section1 .nav-link p{
+    color: black !important;
+    font-weight: bolder;
+}
  @media(min-width:992px){
     #section1, #section3{
         height: 110vh;
