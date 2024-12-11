@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('/navbar.html')
         .then(response => response.text())
         .then(data => {
-            console.log("Fetched Navbar HTML:", data);
+        
             document.getElementById('navbar-container').innerHTML = data;
 
             // Define elements AFTER the navbar is injected
