@@ -50,7 +50,15 @@ body{
     color: black !important;
     font-weight: bolder;
 }
+#section3 .nav-link p{
+    color: black !important;
+    font-weight: bolder;
+}
 #section1 .nav-link p .active{
+    color: white !important;
+    font-weight: bolder;
+}
+#section3 .nav-link p .active{
     color: white !important;
     font-weight: bolder;
 }
