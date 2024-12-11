@@ -31,7 +31,7 @@
     
 .aboutSlider-section{
     margin-top: 100px;
-    height: 105vh;
+    height: fit-content;
 }
 .aboutSlider .navbarabout a{
     margin: 20px;
