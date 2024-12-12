@@ -49,18 +49,22 @@
     <link href="/css/quote.css" rel="stylesheet">
     <link href="/css/animation.css" rel="stylesheet">
            
-           
+<style>
              @media (max-width:768px) {
                 .service-container{
                     height: fit-content !important;
                 }
              }
-    </style>
+   
   
              @media (max-width:768px) {
                 .service-container{
                     height: fit-content !important;
                 }
+             }
+
+             .card-options{
+                background-color: #081f3e72;
              }
     </style>
 </head>
@@ -121,6 +125,7 @@
         <div class="title">
             <h1>Select a Service</h1>
         </div>
+        <div class="card-options">
         <div class="service bounce-top" id="fleet-service" onclick="showFleetQuestions('fleet')">
             <div><img src="/images/icons/fleet-management.png" class="serviceCard"></div>
             Fleet Management
@@ -131,6 +136,7 @@
             </div>
             Web Development
         </div>
+    </div>
         <!-- <div class="service bounce-top" id="app-service" onclick="showAppQuestions('appDev')">
             <div> <img src="/images/icons/services/appDev.png" class="serviceCard"/></div>
             App Development

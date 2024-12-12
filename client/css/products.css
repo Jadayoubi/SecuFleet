@@ -64,7 +64,7 @@ body{
 }
  @media(min-width:992px){
     #section1, #section3{
-        height: 110vh;
+        min-height: 110vh;
     }
   
     #section1 .nav-link{
