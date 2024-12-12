@@ -162,6 +162,7 @@ td {
 
 .container_four .side_two img {
     max-width: 80%;
+    border-radius: 20px;
     height: auto;
 }
 
