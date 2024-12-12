@@ -504,12 +504,13 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(/client/images/microsoft/Designer\ \(1\).jpeg) center bottom 10% no-repeat;
+    height: 80vh;
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(/images/microsoft/Designer\ \(1\).jpeg) center bottom 10% no-repeat;
     background-size: cover;
 }
 .bg-header1 {
     height: 80vh;
-    background: linear-gradient(rgba(9, 30, 62, 0.5), rgba(9, 30, 62, 0.5)), url(/client/images/works/web/backs/imagine2.jpeg) center 65% no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, 0.5), rgba(9, 30, 62, 0.5)), url(/images/works/web/backs/imagine2.jpeg) center 65% no-repeat;
     background-size: cover;
 }
 .link-animated a {
