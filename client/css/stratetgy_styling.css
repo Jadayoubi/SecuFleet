@@ -158,10 +158,12 @@ td {
 .container_four .side_two {
     flex: 1;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .container_four .side_two img {
-    max-width: 80%;
+    max-width: 90%;
     border-radius: 20px;
     height: auto;
 }
