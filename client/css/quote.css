@@ -30,7 +30,7 @@ body{
     background: url("/images/quoteBack2.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    min-height: 80vh;
     background-size: cover;
     animation: bounce-in-right  0.8s ease-in-out both;
  }
