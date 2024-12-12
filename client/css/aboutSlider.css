@@ -118,7 +118,7 @@
         color:rgb(6, 163, 218); 
     }
     .aboutSlider-section{
-        height: 95vh;
+        min-height: 100vh;
     }  
    .aboutSlider {
     width: 100%;
@@ -130,7 +130,6 @@
     font-size: 20px;
     }
     .aboutSliderh1{
-        margin-bottom: 20px;
         text-align: center;
     }
     
