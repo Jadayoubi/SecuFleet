@@ -36,6 +36,7 @@ body {
 }
 .partB img, .col-md-6 img{
     border-radius: 20px;
+    width: 100%;
 }
 
 .bordered-row {
