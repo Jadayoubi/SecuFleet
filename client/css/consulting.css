@@ -133,7 +133,7 @@ color: white;
 }
 
 .service-item img {
-    height: 250px;
+    height: 200px;
     width: 100%;
     object-fit: contain;
 
@@ -141,7 +141,6 @@ color: white;
 
 .service-item span {
     font-weight: bold;
-    margin-top: -50px;
 }
 
 
