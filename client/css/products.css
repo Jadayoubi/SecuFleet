@@ -13,8 +13,7 @@ body{
     max-width: 100% !important;
 }
 .tab-content>.active {
-  display: block;
-  height: 100%;
+  min-height: 100vh;
 }
 .transBack{
     background-color: rgba(39, 39, 39, 0.211);
@@ -77,6 +76,9 @@ body{
     #section1 .service{
       height: 80%;
       margin-top: 18%;
+    }
+    #section1 .row{
+      min-height: 100vh !important;
     }
     #section1 .container, #section1 .row, #section1 .content, #section1 .tab-content
     {
