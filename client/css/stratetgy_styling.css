@@ -93,6 +93,9 @@ td {
 .partB h1{
    color: rgb(6, 163, 218);
 }
+.row{
+    align-items: center;
+}
 .container_one {
     display: flex;
     padding-top: 30px;
