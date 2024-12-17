@@ -84,6 +84,15 @@ td {
  .text{
     background-color: #091e3e82;
  }
+ .third-section{
+    background-color: #091E3E;
+}
+.partB p{
+    color: white;
+}
+.partB h1{
+   color: rgb(6, 163, 218);
+}
 .container_one {
     display: flex;
     padding-top: 30px;
