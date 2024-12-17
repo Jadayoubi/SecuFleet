@@ -12,6 +12,10 @@ body{
 #section1 .container{
     max-width: 100% !important;
 }
+.tab-content>.active {
+  display: block;
+  height: 100%;
+}
 .transBack{
     background-color: rgba(39, 39, 39, 0.211);
     border-radius: 10px;
@@ -50,9 +54,14 @@ body{
   }
 
  }
+ #section1 .content, #section3 .content{
+  min-height: 100vh;
+ }
  @media (min-width:991px) {
   
-
+#section1{
+  min-height: 100vh !important;
+}
     .imageSize{
       max-width: 70% !important;
       max-height: 70%;
@@ -63,6 +72,7 @@ body{
     }
     #section1 .content, #section3 .content{
       width: 80%;
+      min-height: 100vh;
     }
     #section1 .service{
       height: 80%;
