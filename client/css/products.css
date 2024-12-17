@@ -56,6 +56,9 @@ body{
  #section1 .content, #section3 .content{
   min-height: 100vh;
  }
+ #section1 .row{
+  min-height: 100vh !important;
+}
  @media (min-width:991px) {
   
 #section1{
@@ -77,9 +80,7 @@ body{
       height: 80%;
       margin-top: 18%;
     }
-    #section1 .row{
-      min-height: 100vh !important;
-    }
+  
     #section1 .container, #section1 .row, #section1 .content, #section1 .tab-content
     {
       height: 100%;
