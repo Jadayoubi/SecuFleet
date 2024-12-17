@@ -134,7 +134,7 @@
         background-repeat: no repeat;
         background-position: center;
         object-fit: cover;
-        height: 100vh;
+        min-height: 100vh;
         padding: 0;
         align-items: center;
         justify-content: center;
@@ -145,7 +145,7 @@
         background-position:center 55%;
         background-size: cover;
         background-repeat:no-repeat;
-        height: 80vh;
+        min-height: 80vh;
         animation: bounce-in-right  0.8s ease-in-out both;
        
       }
@@ -239,7 +239,7 @@
             <h1 class="mb-5">Driving Performance</h1>
           </div>
           <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="col-lg-4">
+            <div class="col-lg-4 navTitles">
               <div class="nav w-100 nav-pills me-4">
                 <button
                   class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
@@ -270,11 +270,11 @@
                 </button>
               </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 content">
               <div class="tab-content w-100">
                 <div class="tab-pane fade show active" id="tab-pane-1">
                   <div class="row g-4">
-                    <div class="col-md-6" style="min-height: 350px">
+                    <div class="col-md-8 imageSize" style="min-height: 350px">
                       <div class="position-relative h-100">
                         <img
                           class="position-absolute img-fluid w-100 h-100"
@@ -284,7 +284,7 @@
                         />
                       </div>
                     </div>
-                    <div class="col-md-6 transBack">
+                    <div class="col-md-4 transBack">
                       <h3 class="mb-3">Advanced Speed Surveillance</h3>
                       <p class="mb-4">
                         Continuously monitor and record the average and peak speeds of each driver to ensure compliance with speed regulations and to promote safe driving practices.
@@ -306,7 +306,7 @@
                 </div>
                 <div class="tab-pane fade" id="tab-pane-2">
                   <div class="row g-4">
-                    <div class="col-md-6" style="min-height: 350px">
+                    <div class="col-md-8 imageSize" style="min-height: 350px">
                       <div class="position-relative h-100">
                         <img
                           class="position-absolute img-fluid w-100 h-100"
@@ -316,7 +316,7 @@
                         />
                       </div>
                     </div>
-                    <div class="col-md-6 transBack">
+                    <div class="col-md-4 transBack">
                       <h3 class="mb-3">Braking Behavior Insights</h3>
                       <p class="mb-4">
                         Analyze instances of harsh or abrupt braking to identify potential safety risks and provide feedback for smoother driving techniques.
@@ -338,7 +338,7 @@
                 </div>
                 <div class="tab-pane fade" id="tab-pane-3">
                   <div class="row g-4">
-                    <div class="col-md-6" style="min-height: 350px">
+                    <div class="col-md-8 imageSize" style="min-height: 350px">
                       <div class="position-relative h-100">
                         <img
                           class="position-absolute img-fluid w-100 h-100"
@@ -348,7 +348,7 @@
                         />
                       </div>
                     </div>
-                    <div class="col-md-6 transBack">
+                    <div class="col-md-4 transBack">
                       <h3 class="mb-3">Acceleration Performance Evaluation</h3>
                       <p class="mb-4">
                       Leveraging data-driven insights and innovative algorithms, we tailor routes to streamline operations, reduce travel time, and lower fuel consumption, promoting eco-friendly practices
