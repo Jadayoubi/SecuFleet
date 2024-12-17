@@ -84,6 +84,9 @@ td {
  .text{
     background-color: #091e3e82;
  }
+ .text li{
+    color: white !important;
+ }
  .third-section{
     background-color: #091E3E;
 }
@@ -111,12 +114,11 @@ td {
 }
 
 .container_two {
-    
-   text-align: left;
+    padding: 5%;
+    text-align: left;
     line-height: 2rem;
-   margin-top: 5%;
+    margin-top: 5%;
     width: 90%;
-
 }
 
 .container_three {
@@ -344,9 +346,7 @@ td {
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
-    .boxes {
-        margin: 0 15px;
-    }
+  
     
     .boxes .planBox {
         flex-basis: calc(100% - 40px); /* Full width for 1 per row on mobile */
