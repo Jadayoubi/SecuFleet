@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('/consulting-section') // This path should point to the consulting-section.html file or endpoint.
+    fetch('/consulting-section')
         .then(response => response.text())
         .then(data => {
             document.getElementById('consulting-section-container').innerHTML = data;
