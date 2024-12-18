@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background-color: #091E3E;
+}
 .line-animation {
     width: 8%; 
     height: 100%;   
