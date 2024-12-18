@@ -77,6 +77,14 @@ td {
     width: 80% !important;
     margin-left:15%;
  }
+ @media (max-width:768px) {
+    .right{
+        width: 95% !important;
+        padding-top: 5%;
+        margin: 0 !important;
+    }
+   
+ }
  .left{
     width: 80% !important;
     margin-right: 15%;
