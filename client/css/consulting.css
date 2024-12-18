@@ -112,6 +112,7 @@ color: white;
 
 .services-wrapper {
     display: grid;
+    align-items: baseline;
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
     background: rgba(255, 255, 255, 0.1);
