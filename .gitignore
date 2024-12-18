@@ -6,4 +6,3 @@ server/node_modules/
 server/.env
 
 # Ignore the index.js in the backend folder
-server/index.js
