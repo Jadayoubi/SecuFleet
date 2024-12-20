@@ -34,21 +34,26 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     color: white;
+}
+.hero h1{
+    font-size: 3rem;
+}
+@media(min-width:991px){
+    .hero h1 {
+        /* font-size: 36px; */
+        font-size: 5rem !important;
+        text-align: left;
+        margin-left: 200px;
+        margin-top: 200px;
+        color: white;
+    }
 }
 
-.hero h1 {
-    /* font-size: 36px; */
-    font-size: 3rem;
-    text-align: left;
-    margin-left: 200px;
-    margin-top: 200px;
-    color: white;
-}
 
 .about-section {
     background-image: url("https://i.ibb.co/PZcy56h/Untitled-16-01.png");
