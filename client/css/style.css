@@ -277,12 +277,16 @@ h6,
     background-position: center;
     background-repeat: no-repeat;
     padding: 50px 0;
+    height: fit-content;
 }
 .service-item {
     position: relative;
     height: 300px;
     padding: 0 30px;
     transition: .5s;
+}
+.service-card{
+    padding-bottom: 10%;
 }
 .service-section  img{
     width: 100%;
