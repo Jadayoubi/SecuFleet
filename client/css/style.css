@@ -288,9 +288,16 @@ h6,
 .service-card{
     padding-bottom: 10%;
 }
+@media (max-width:786px) {
+    .service-section  img{
+       
+        height: 200px !important;
+        
+    }
+}
 .service-section  img{
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 .service-item .service-icon {
