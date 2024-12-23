@@ -130,8 +130,7 @@
   .section-4-vd {
     position: relative;
     width: 100%; /* Full width */
-    height: 60vh;
-    padding-top: 56.25%; 
+  
     overflow: hidden;
   }
   
