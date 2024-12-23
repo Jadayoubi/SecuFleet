@@ -58,7 +58,9 @@ body{
  }
  #section1 .row{
   min-height: 100vh !important;
+  align-items: center;
 }
+
  @media (min-width:991px) {
   
 #section1{
