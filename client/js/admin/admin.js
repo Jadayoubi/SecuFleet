@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function fetchQuotations() {
     const token = localStorage.getItem('jwtToken');
 
-    fetch('http://localhost:3000/api/webQuotations', {
+    fetch('https://secu-fleet.vercel.app/api/webQuotations', {
         headers: {
             'Authorization': `Bearer ${token}`,
         },
