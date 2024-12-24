@@ -121,7 +121,7 @@
   .quote{
 
     margin-bottom: -21px;
-    /* height: 100vh; */
+    min-height: 100vh;
   
   }
 }
