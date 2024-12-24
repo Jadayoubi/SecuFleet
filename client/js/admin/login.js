@@ -3,7 +3,7 @@ document.getElementById('userForm').addEventListener('submit', async (event) => 
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
-  fetch('https://secu-back.vercel.app/secufleet/auth/login', {
+  fetch('/api/auth/login', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',

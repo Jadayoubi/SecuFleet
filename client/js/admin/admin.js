@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function fetchQuotations() {
     const token = localStorage.getItem('jwtToken');
 
-    fetch('https://secu-fleet.vercel.app/api/webQuotations', {
+    fetch('/api/quotations/webQuotations', {
         headers: {
             'Authorization': `Bearer ${token}`,
         },
@@ -55,7 +55,7 @@ function getActionButton(quotation) {
 function updateStatus(id, status) {
     const token = localStorage.getItem('jwtToken');
 
-    fetch(`http://localhost:3000/api/webQuotations/${id}`, {
+    fetch(`/api/quotations/webQuotations/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
@@ -79,7 +79,7 @@ function updateStatus(id, status) {
 function deleteQuotation(id) {
     const token = localStorage.getItem('jwtToken');
 
-    fetch(`http://localhost:3000/api/webQuotations/${id}`, {
+    fetch(`/api/quotations/webQuotations/${id}`, {
         method: 'DELETE',
         headers: {
             'Authorization': `Bearer ${token}`,
