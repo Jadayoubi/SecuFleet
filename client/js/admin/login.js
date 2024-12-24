@@ -3,7 +3,7 @@ document.getElementById('userForm').addEventListener('submit', async (event) => 
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
-  fetch('/api/auth/login', {
+  fetch('/server/api/auth/login', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
