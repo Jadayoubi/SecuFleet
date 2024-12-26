@@ -37,6 +37,10 @@ body{
    }
 
  @media (max-width:991px) {
+    img{
+      object-fit: contain;
+      border-radius: 10px;
+    }
     #section1, #section3{
         height: fit-content !important;
 
