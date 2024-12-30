@@ -27,8 +27,8 @@ body{
     background-color: #091e3e52;
 }
  .service-container,.fleet-questions,.webDev-questions,.consulting-questions{
-    background: url("/images/quoteBack2.png");
-    background-position: center;
+    background: url("/images/consulting/stratetgy/Sustainability.png");
+    background-position: bottom;
     background-repeat: no-repeat;
     min-height: 80vh;
     background-size: cover;
@@ -67,7 +67,9 @@ body{
     display: none;
 }
 
-
+.question h2{
+    color: white;
+}
 .question-card p {
     padding-top: 10px;
     cursor: pointer;
@@ -85,6 +87,7 @@ body{
     text-align: center;
     width: 100%;
    padding: 30px;
+   color: white;
 }
 .confirmationSection {
     background: white;
@@ -107,6 +110,8 @@ body{
 .progress-container span {
     display: inline-block;
     margin-bottom: 10px;
+    color: white;
+    font-size: 27px;
 }
 .submit-btn {
     display: block;
