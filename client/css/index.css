@@ -93,6 +93,34 @@
   color: #06a3da;
   box-shadow: none;
 }
+.quote{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.quote .contact-info a{
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 600;
+}
+@media (max-width:768px) {
+  .quote .contact-info a{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .quote .contact-info img{
+    width: 50px !important;
+    height: auto;
+    object-fit: contain;
+  }
+  
+}
 
 .btn-quote-transparent h5 {
   margin: 0;
